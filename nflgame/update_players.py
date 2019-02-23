@@ -316,7 +316,7 @@ def run():
 
     if args.json_update_file is None:
         args.json_update_file = nflgame.player._player_json_file
-    teams = [team[0] for team in nflgame.teams if team[0] != 'STL']
+    teams = [team[0] for team in nflgame.teams if team[0] not in ['STL', 'SD']]
     pool = multiprocessing.pool.ThreadPool(args.simultaneous_reqs)
 
     # Before doing anything laborious, make sure we have write access to
@@ -355,7 +355,7 @@ def run():
         players = {}
 
         # Grab players one game a time to avoid obscene memory requirements.
-        for _, schedule in nflgame.sched.games.itervalues():
+        for schedule in nflgame.sched.games.itervalues():
             # If the game is too far in the future, skip it...
             if nflgame.live._game_datetime(schedule) > nflgame.live._now():
                 continue

@@ -37058,7 +37058,6 @@
     "year": 2015
    }
   ],
-  
   [
    "2016010301",
    {
@@ -48601,7 +48600,92 @@
     "week": 17,
     "year": 2017
    }
+  ],
+  [
+   "2019011200",
+   {
+    "away": "IND",
+    "day": 12,
+    "eid": "2019011200",
+    "gamekey": "57827",
+    "home": "KC",
+    "meridiem": "PM",
+    "month": 1,
+    "season_type": "POST",
+    "time": "4:35",
+    "wday": "Sat",
+    "week": 2,
+    "year": 2018
+   }
+  ],
+  [
+   "2019011201",
+   {
+    "away": "DAL",
+    "day": 12,
+    "eid": "2019011201",
+    "gamekey": "57828",
+    "home": "LA",
+    "meridiem": "PM",
+    "month": 1,
+    "season_type": "POST",
+    "time": "8:15",
+    "wday": "Sat",
+    "week": 2,
+    "year": 2018
+   }
+  ],
+  [
+   "2019011300",
+   {
+    "away": "LAC",
+    "day": 13,
+    "eid": "2019011300",
+    "gamekey": "57829",
+    "home": "NE",
+    "meridiem": "PM",
+    "month": 1,
+    "season_type": "POST",
+    "time": "1:05",
+    "wday": "Sun",
+    "week": 2,
+    "year": 2018
+   }
+  ],
+  [
+   "2019011301",
+   {
+    "away": "PHI",
+    "day": 13,
+    "eid": "2019011301",
+    "gamekey": "57830",
+    "home": "NO",
+    "meridiem": "PM",
+    "month": 1,
+    "season_type": "POST",
+    "time": "4:40",
+    "wday": "Sun",
+    "week": 2,
+    "year": 2018
+   }
+  ],
+  [
+   "2019020300",
+   {
+    "away": "NE",
+    "day": 3,
+    "eid": "2019020300",
+    "gamekey": "57833",
+    "home": "LA",
+    "meridiem": "PM",
+    "month": 2,
+    "season_type": "POST",
+    "time": "6:30",
+    "wday": "Sun",
+    "week": 5,
+    "year": 2018
+   }
   ]
  ],
- "time": 1504112216.544
+ "time": 1550457688.445504
 }
